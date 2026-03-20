@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FitMi – Polityka Prywatności / Privacy Policy</title>
+  <style>
+    :root {
+      --green: #2E7D32;
+      --green-dark: #1B5E20;
+      --bg: #F0F4F0;
+      --surface: #ffffff;
+      --text: #1C1C1E;
+      --muted: #6B7280;
+      --border: #E0E0E0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    header {
+      background: linear-gradient(135deg, var(--green-dark), var(--green));
+      color: #fff;
+      padding: 48px 24px 40px;
+      text-align: center;
+    }
+    header h1 { font-size: 2rem; font-weight: 800; letter-spacing: -0.5px; }
+    header p { margin-top: 8px; opacity: 0.85; font-size: 0.95rem; }
+
+    .lang-switch {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      padding: 20px 24px 0;
+    }
+    .lang-btn {
+      padding: 8px 24px;
+      border-radius: 999px;
+      border: 2px solid var(--green);
+      background: transparent;
+      color: var(--green);
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .lang-btn.active {
+      background: var(--green);
+      color: #fff;
+    }
+
+    .content { display: none; max-width: 780px; margin: 32px auto 64px; padding: 0 24px; }
+    .content.active { display: block; }
+
+    .card {
+      background: var(--surface);
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--green-dark);
+      margin-bottom: 16px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--border);
+    }
+    h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 18px 0 8px;
+      color: var(--text);
+    }
+    p { margin-bottom: 12px; }
+    ul { padding-left: 20px; margin-bottom: 12px; }
+    li { margin-bottom: 6px; }
+    a { color: var(--green); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .badge {
+      display: inline-block;
+      background: #E8F5E9;
+      color: var(--green-dark);
+      border-radius: 8px;
+      padding: 2px 10px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-right: 6px;
+      margin-bottom: 6px;
+    }
+    .badge.red { background: #FFEBEE; color: #C62828; }
+    .badge.orange { background: #FFF3E0; color: #E65100; }
+    .badge.grey { background: #F3F4F6; color: #374151; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      margin-top: 12px;
+    }
+    th {
+      background: #E8F5E9;
+      color: var(--green-dark);
+      padding: 10px 12px;
+      text-align: left;
+      font-weight: 600;
+    }
+    td {
+      padding: 9px 12px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+    tr:last-child td { border-bottom: none; }
+
+    .updated {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.82rem;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🍃 FitMi</h1>
+  <p>Polityka Prywatności &nbsp;·&nbsp; Privacy Policy</p>
+</header>
+
+<div class="lang-switch">
+  <button class="lang-btn active" onclick="switchLang('pl')">🇵🇱 Polski</button>
+  <button class="lang-btn" onclick="switchLang('en')">🇬🇧 English</button>
+</div>
+
+<!-- ============================================================ POLISH ============================================================ -->
+<div id="pl" class="content active">
+
+  <div class="card">
+    <h2>1. Informacje ogólne</h2>
+    <p>Niniejsza Polityka Prywatności opisuje, jakie dane są przetwarzane przez aplikację mobilną <strong>FitMi</strong> (dalej „Aplikacja"), w jaki sposób są chronione oraz jakie prawa przysługują użytkownikowi.</p>
+    <p>Aplikacja nie wymaga zakładania konta i działa <strong>w trybie offline</strong> — wszystkie Twoje dane zdrowotne są przechowywane <strong>wyłącznie na Twoim urządzeniu</strong>.</p>
+    <p><strong>Deweloper:</strong> Indywidualny deweloper – FitMi App<br>
+    <strong>Kontakt:</strong> <a href="mailto:fitmi.app@gmail.com">fitmi.app@gmail.com</a></p>
+  </div>
+
+  <div class="card">
+    <h2>2. Jakie dane zbieramy i po co</h2>
+
+    <h3>2.1 Dane zdrowotne i sylwetkowe</h3>
+    <p>Aplikacja przechowuje lokalnie na urządzeniu:</p>
+    <ul>
+      <li>Masę ciała, obwody ciała (talia, biodra, udo, ramię, klatka piersiowa, łydka, szyja)</li>
+      <li>Skład ciała: procent tkanki tłuszczowej, wody, mięśni</li>
+      <li>Zdjęcia sylwetki (zapisane w pamięci urządzenia)</li>
+      <li>Notatki powiązane z pomiarami</li>
+    </ul>
+    <p><span class="badge">Cel:</span> Śledzenie postępów odchudzania i zmiany składu ciała.</p>
+
+    <h3>2.2 Dane cyklu miesiączkowego</h3>
+    <p>Aplikacja przechowuje lokalnie:</p>
+    <ul>
+      <li>Daty początku i końca miesiączki</li>
+      <li>Obliczone fazy cyklu (menstruacja, folikularna, owulacja, lutealna, PMS)</li>
+      <li>Opcjonalne notatki</li>
+    </ul>
+    <p><span class="badge red">Dane wrażliwe</span> Dane cyklu należą do szczególnej kategorii danych zdrowotnych. Są przechowywane wyłącznie lokalnie i nigdy nie są wysyłane na żadne serwery.</p>
+
+    <h3>2.3 Dziennik posiłków</h3>
+    <ul>
+      <li>Nazwy i wartości odżywcze spożytych produktów (kalorie, białko, węglowodany, tłuszcz)</li>
+      <li>Zeskanowane kody kreskowe produktów (do jednorazowego wyszukania w Open Food Facts API)</li>
+      <li>Data i pora posiłku</li>
+    </ul>
+
+    <h3>2.4 Aktywność fizyczna i GPS</h3>
+    <ul>
+      <li>Trasa aktywności (współrzędne GPS: szerokość i długość geograficzna)</li>
+      <li>Czas trwania, dystans, spalone kalorie, tempo</li>
+    </ul>
+    <p><span class="badge orange">GPS</span> Dane lokalizacyjne są używane wyłącznie do pomiaru trasy i zapisywane na urządzeniu. Nigdy nie są wysyłane na zewnętrzne serwery.</p>
+
+    <h3>2.5 Profil użytkownika i cele</h3>
+    <ul>
+      <li>Płeć, wiek, wzrost, poziom aktywności</li>
+      <li>Docelowa masa ciała, docelowy procent tłuszczu, data celu</li>
+    </ul>
+
+    <h3>2.6 Dane techniczne (ustawienia)</h3>
+    <ul>
+      <li>Preferencje motywu (jasny/ciemny), jednostki (metryczne/imperialne), język</li>
+      <li>Ustawienia powiadomień (godzina, włączone/wyłączone)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>3. Zewnętrzne usługi i przekazywanie danych</h2>
+
+    <table>
+      <tr>
+        <th>Usługa</th>
+        <th>Co wysyłamy</th>
+        <th>Cel</th>
+        <th>Polityka</th>
+      </tr>
+      <tr>
+        <td><strong>Google AdMob</strong></td>
+        <td>Identyfikator urządzenia, dane o użytkowaniu app</td>
+        <td>Wyświetlanie reklam baner i wideo</td>
+        <td><a href="https://policies.google.com/privacy" target="_blank">Google Privacy</a></td>
+      </tr>
+      <tr>
+        <td><strong>Open Food Facts API</strong></td>
+        <td>Wpisana fraza wyszukiwania lub kod kreskowy</td>
+        <td>Wyszukiwanie danych odżywczych</td>
+        <td><a href="https://world.openfoodfacts.org/privacy" target="_blank">OFF Privacy</a></td>
+      </tr>
+      <tr>
+        <td><strong>TheMealDB API</strong></td>
+        <td>Fraza wyszukiwania przepisu</td>
+        <td>Inspiracje kulinarne</td>
+        <td><a href="https://www.themealdb.com/privacy.php" target="_blank">MealDB Privacy</a></td>
+      </tr>
+    </table>
+
+    <p style="margin-top:16px;">Żadne dane zdrowotne, pomiary, zdjęcia, trasy GPS ani dane cyklu miesiączkowego <strong>nie są wysyłane na żadne serwery zewnętrzne</strong>.</p>
+  </div>
+
+  <div class="card">
+    <h2>4. Uprawnienia systemowe</h2>
+    <table>
+      <tr><th>Uprawnienie</th><th>Do czego używane</th></tr>
+      <tr><td>Internet</td><td>Reklamy AdMob, wyszukiwanie produktów i przepisów</td></tr>
+      <tr><td>Kamera</td><td>Skanowanie kodów kreskowych, robienie zdjęć sylwetki</td></tr>
+      <tr><td>Lokalizacja (dokładna)</td><td>Rejestrowanie trasy podczas aktywności fizycznej</td></tr>
+      <tr><td>Lokalizacja (w tle)</td><td>Ciągłe nagrywanie trasy gdy aplikacja jest w tle</td></tr>
+      <tr><td>Powiadomienia</td><td>Przypomnienia o pomiarach, podsumowania tygodniowe, alerty cyklu</td></tr>
+    </table>
+    <p style="margin-top:12px;">Każde uprawnienie jest przyznawane przez Ciebie dobrowolnie. Możesz je wycofać w ustawieniach systemu w dowolnym momencie.</p>
+  </div>
+
+  <div class="card">
+    <h2>5. Eksport danych</h2>
+    <p>Na Twój wniosek aplikacja może wygenerować i udostępnić (przez systemowy arkusz udostępniania):</p>
+    <ul>
+      <li><strong>CSV</strong> – historia pomiarów masy i obwodów</li>
+      <li><strong>PDF</strong> – raport postępów z wykresem</li>
+      <li><strong>JSON</strong> – pełna kopia zapasowa danych (pomiary, profil, aktywności)</li>
+      <li><strong>GPX</strong> – trasa aktywności GPS</li>
+    </ul>
+    <p>Pliki te zawierają Twoje dane osobowe i zdrowotne. Odpowiadasz za ich bezpieczne przechowywanie po eksporcie.</p>
+  </div>
+
+  <div class="card">
+    <h2>6. Przechowywanie i usuwanie danych</h2>
+    <ul>
+      <li>Dane przechowywane są lokalnie na urządzeniu tak długo, jak masz zainstalowaną aplikację.</li>
+      <li>Usunięcie aplikacji powoduje <strong>trwałe usunięcie wszystkich danych</strong>.</li>
+      <li>Poszczególne wpisy (pomiary, posiłki, aktywności, wpisy cyklu) możesz usunąć ręcznie w aplikacji.</li>
+      <li>Funkcja „Importuj kopię zapasową" nadpisuje istniejące dane.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>7. Prawa użytkownika (RODO)</h2>
+    <p>Jako użytkownik masz prawo do:</p>
+    <ul>
+      <li><strong>Dostępu</strong> – możesz w każdej chwili przeglądać wszystkie swoje dane w aplikacji</li>
+      <li><strong>Przeniesienia</strong> – eksport do CSV, JSON, PDF, GPX</li>
+      <li><strong>Usunięcia</strong> – usunięcie pojedynczych wpisów lub odinstalowanie aplikacji</li>
+      <li><strong>Sprzeciwu</strong> – możesz wyłączyć reklamy spersonalizowane w ustawieniach systemu (iOS: Ustawienia → Prywatność → Reklamy; Android: Ustawienia → Google → Reklamy)</li>
+    </ul>
+    <p>W razie pytań napisz na: <a href="mailto:fitmi.app@gmail.com">fitmi.app@gmail.com</a></p>
+  </div>
+
+  <div class="card">
+    <h2>8. Bezpieczeństwo danych</h2>
+    <ul>
+      <li>Dane przechowywane są w prywatnym katalogu aplikacji, niedostępnym dla innych aplikacji (bez roota).</li>
+      <li>Szyfrowanie danych w spoczynku zapewnia szyfrowanie urządzenia (Android Full Disk Encryption / iOS Data Protection).</li>
+      <li>Aplikacja nie przesyła danych zdrowotnych przez sieć.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>9. Dzieci</h2>
+    <p>Aplikacja nie jest przeznaczona dla dzieci poniżej 16. roku życia. Nie gromadzimy świadomie danych od osób niepełnoletnich.</p>
+  </div>
+
+  <div class="card">
+    <h2>10. Zmiany Polityki Prywatności</h2>
+    <p>O wszelkich istotnych zmianach poinformujemy przez aktualizację daty poniżej i — jeśli zmiana będzie znacząca — przez powiadomienie w aplikacji.</p>
+  </div>
+
+  <p class="updated">Ostatnia aktualizacja: 15 marca 2026 r.</p>
+</div>
+
+
+<!-- ============================================================ ENGLISH ============================================================ -->
+<div id="en" class="content">
+
+  <div class="card">
+    <h2>1. General Information</h2>
+    <p>This Privacy Policy describes what data is processed by the <strong>FitMi</strong> mobile application (the "App"), how it is protected, and what rights users have.</p>
+    <p>The App does not require account creation and operates <strong>offline</strong> — all your health data is stored <strong>exclusively on your device</strong>.</p>
+    <p><strong>Developer:</strong> Individual developer – FitMi App<br>
+    <strong>Contact:</strong> <a href="mailto:fitmi.app@gmail.com">fitmi.app@gmail.com</a></p>
+  </div>
+
+  <div class="card">
+    <h2>2. What Data We Collect and Why</h2>
+
+    <h3>2.1 Health and Body Measurements</h3>
+    <p>The App stores locally on your device:</p>
+    <ul>
+      <li>Body weight and circumferences (waist, hips, thigh, arm, chest, calf, neck)</li>
+      <li>Body composition: body fat %, water %, muscle %</li>
+      <li>Progress photos (saved to device storage)</li>
+      <li>Notes attached to measurements</li>
+    </ul>
+    <p><span class="badge">Purpose:</span> Tracking weight loss progress and body composition changes.</p>
+
+    <h3>2.2 Menstrual Cycle Data</h3>
+    <p>The App stores locally:</p>
+    <ul>
+      <li>Period start and end dates</li>
+      <li>Calculated cycle phases (menstruation, follicular, ovulation, luteal, PMS)</li>
+      <li>Optional notes</li>
+    </ul>
+    <p><span class="badge red">Sensitive Data</span> Cycle data is a special category of health data. It is stored exclusively on your device and is never sent to any server.</p>
+
+    <h3>2.3 Food Diary</h3>
+    <ul>
+      <li>Names and nutritional values of consumed foods (calories, protein, carbs, fat)</li>
+      <li>Scanned product barcodes (used once to query the Open Food Facts API)</li>
+      <li>Date and time of meals</li>
+    </ul>
+
+    <h3>2.4 Physical Activity and GPS</h3>
+    <ul>
+      <li>Activity route (GPS coordinates: latitude and longitude)</li>
+      <li>Duration, distance, calories burned, pace</li>
+    </ul>
+    <p><span class="badge orange">GPS</span> Location data is used exclusively to measure your route and is saved on-device. It is never transmitted to external servers.</p>
+
+    <h3>2.5 User Profile and Goals</h3>
+    <ul>
+      <li>Gender, age, height, activity level</li>
+      <li>Target weight, target body fat %, goal date</li>
+    </ul>
+
+    <h3>2.6 Technical Data (Settings)</h3>
+    <ul>
+      <li>Theme preferences (light/dark), units (metric/imperial), language</li>
+      <li>Notification settings (time, enabled/disabled)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>3. Third-Party Services and Data Transfers</h2>
+
+    <table>
+      <tr>
+        <th>Service</th>
+        <th>What We Send</th>
+        <th>Purpose</th>
+        <th>Policy</th>
+      </tr>
+      <tr>
+        <td><strong>Google AdMob</strong></td>
+        <td>Device identifier, app usage data</td>
+        <td>Displaying banner and video ads</td>
+        <td><a href="https://policies.google.com/privacy" target="_blank">Google Privacy</a></td>
+      </tr>
+      <tr>
+        <td><strong>Open Food Facts API</strong></td>
+        <td>Search query or barcode number</td>
+        <td>Looking up nutritional data</td>
+        <td><a href="https://world.openfoodfacts.org/privacy" target="_blank">OFF Privacy</a></td>
+      </tr>
+      <tr>
+        <td><strong>TheMealDB API</strong></td>
+        <td>Recipe search query</td>
+        <td>Recipe inspiration browser</td>
+        <td><a href="https://www.themealdb.com/privacy.php" target="_blank">MealDB Privacy</a></td>
+      </tr>
+    </table>
+
+    <p style="margin-top:16px;">No health data, measurements, photos, GPS routes, or cycle data are <strong>ever sent to any external server</strong>.</p>
+  </div>
+
+  <div class="card">
+    <h2>4. System Permissions</h2>
+    <table>
+      <tr><th>Permission</th><th>Usage</th></tr>
+      <tr><td>Internet</td><td>AdMob ads, food product and recipe search</td></tr>
+      <tr><td>Camera</td><td>Barcode scanning, taking progress photos</td></tr>
+      <tr><td>Precise Location</td><td>Recording route during physical activity</td></tr>
+      <tr><td>Background Location</td><td>Continuous route recording while app is in the background</td></tr>
+      <tr><td>Notifications</td><td>Measurement reminders, weekly summaries, cycle alerts</td></tr>
+    </table>
+    <p style="margin-top:12px;">Each permission is granted by you voluntarily. You can revoke them in system settings at any time.</p>
+  </div>
+
+  <div class="card">
+    <h2>5. Data Export</h2>
+    <p>At your request, the App can generate and share (via the system share sheet):</p>
+    <ul>
+      <li><strong>CSV</strong> – weight and circumference measurement history</li>
+      <li><strong>PDF</strong> – progress report with chart</li>
+      <li><strong>JSON</strong> – full data backup (measurements, profile, activities)</li>
+      <li><strong>GPX</strong> – GPS activity route</li>
+    </ul>
+    <p>These files contain your personal and health data. You are responsible for their safe storage after export.</p>
+  </div>
+
+  <div class="card">
+    <h2>6. Data Retention and Deletion</h2>
+    <ul>
+      <li>Data is stored locally on your device for as long as the App is installed.</li>
+      <li>Uninstalling the App <strong>permanently deletes all data</strong>.</li>
+      <li>Individual entries (measurements, meals, activities, cycle entries) can be manually deleted within the App.</li>
+      <li>The "Import Backup" function overwrites existing data.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>7. Your Rights (GDPR)</h2>
+    <p>As a user you have the right to:</p>
+    <ul>
+      <li><strong>Access</strong> – view all your data within the App at any time</li>
+      <li><strong>Data portability</strong> – export to CSV, JSON, PDF, GPX</li>
+      <li><strong>Erasure</strong> – delete individual entries or uninstall the App</li>
+      <li><strong>Objection</strong> – opt out of personalised ads in system settings (iOS: Settings → Privacy → Advertising; Android: Settings → Google → Ads)</li>
+    </ul>
+    <p>For any questions, contact us at: <a href="mailto:fitmi.app@gmail.com">fitmi.app@gmail.com</a></p>
+  </div>
+
+  <div class="card">
+    <h2>8. Data Security</h2>
+    <ul>
+      <li>Data is stored in the App's private directory, inaccessible to other apps (without root access).</li>
+      <li>Encryption at rest is provided by device-level encryption (Android Full Disk Encryption / iOS Data Protection).</li>
+      <li>The App does not transmit health data over the network.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>9. Children</h2>
+    <p>The App is not intended for children under the age of 16. We do not knowingly collect data from minors.</p>
+  </div>
+
+  <div class="card">
+    <h2>10. Changes to This Policy</h2>
+    <p>We will notify users of any material changes by updating the date below and — for significant changes — via an in-app notification.</p>
+  </div>
+
+  <p class="updated">Last updated: March 15, 2026</p>
+</div>
+
+<script>
+  function switchLang(lang) {
+    document.querySelectorAll('.content').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
+    document.getElementById(lang).classList.add('active');
+    event.target.classList.add('active');
+  }
+</script>
+
+</body>
+</html>
